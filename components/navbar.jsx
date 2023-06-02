@@ -17,7 +17,11 @@ const navbar = () => {
   return (
     <div className='sticky left-0 right-0 bottom-0 top-0 w-full h-20 shadow-xl z-[9999]'>
         <div className='flex justify-between items-center w-full h-full px-6 2xl:px-16'>
-            <h2>MC</h2>
+            <h2>
+                <Link href="/">
+                    MC
+                </Link>
+            </h2>
             <div>
                 <ul class="hidden md:flex">
                     <li className="ml-10 text-sm uppercase relative">

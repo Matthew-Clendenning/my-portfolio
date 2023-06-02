@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className='mx-[96px]'>
+      <main className='md:mx-[96px]'>
         <Main />
         <About />
       </main>
