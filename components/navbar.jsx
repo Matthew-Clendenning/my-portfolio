@@ -17,24 +17,24 @@ const navbar = () => {
   return (
     <div className='fixed w-full h-20 shadow-xl z-[100]'>
         <div className='flex justify-between items-center w-full h-full px-6 2xl:px-16'>
-            <h1>MC</h1>
+            <h2>MC</h2>
             <div>
-                <ul className='hidden md:flex'>
-                    <Link href="/">
-                        <li className='ml-10 text-sm uppercase hover:border-b border-b-black'>Home</li>
-                    </Link>
-                    <Link href="/">
-                        <li className='ml-10 text-sm uppercase hover:border-b border-b-black'>About</li>
-                    </Link>
-                    <Link href="/">
-                        <li className='ml-10 text-sm uppercase hover:border-b border-b-black'>Skills</li>
-                    </Link>
-                    <Link href="/">
-                        <li className='ml-10 text-sm uppercase hover:border-b border-b-black'>Projects</li>
-                    </Link>
-                    <Link href="/">
-                        <li className='ml-10 text-sm uppercase hover:border-b border-b-black'>Contact</li>
-                    </Link>
+                <ul class="hidden md:flex">
+                    <li className="ml-10 text-sm uppercase relative">
+                        <Link href="/" className="before:block before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5 before:bg-[#003860] before:transition-all before:duration-300 before:ease-in-out before:hover:w-full">Home</Link>
+                    </li>
+                    <li className="ml-10 text-sm uppercase relative">
+                        <Link href="/" className="before:block before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5 before:bg-[#003860] before:transition-all before:duration-300 before:ease-in-out before:hover:w-full">About</Link>
+                    </li>
+                    <li className="ml-10 text-sm uppercase relative">
+                        <Link href="/" className="before:block before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5 before:bg-[#003860] before:transition-all before:duration-300 before:ease-in-out before:hover:w-full">Skills</Link>
+                    </li>
+                    <li className="ml-10 text-sm uppercase relative">
+                        <Link href="/" className="before:block before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5 before:bg-[#003860] before:transition-all before:duration-300 before:ease-in-out before:hover:w-full">Projects</Link>
+                    </li>
+                    <li className="ml-10 text-sm uppercase relative">
+                        <Link href="/" className="before:block before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5 before:bg-[#003860] before:transition-all before:duration-300 before:ease-in-out before:hover:w-full">Contact</Link>
+                    </li>
                 </ul>
                 <div onClick={handleNav} className='md:hidden'>
                     <AiOutlineMenu size={25} />
@@ -77,23 +77,6 @@ const navbar = () => {
                             <li className='py-4 text-sm'>Contact</li>
                         </Link>
                     </ul>
-                    <div className='pt-40'>
-                        <p className='uppercase tracking-widest text-[#005d9f] font-bold'>Let's Connect</p>
-                        <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                            <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <FaLinkedinIn />
-                            </div>
-                            <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <FaGithub />
-                            </div>
-                            <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <AiOutlineMail />
-                            </div>
-                            <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <BsFillPersonLinesFill />
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
