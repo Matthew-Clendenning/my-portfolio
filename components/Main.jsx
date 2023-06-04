@@ -27,9 +27,6 @@ const Main = () => {
                   <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:text-[#0072C6] hover:scale-110 ease-in duration-150'>
                     <AiOutlineMail />
                   </div>
-                  <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-150'>
-                    <BsFillPersonLinesFill />
-                  </div>
                 </div>
             </div>
         </div>
