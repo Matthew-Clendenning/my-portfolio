@@ -43,7 +43,7 @@ const Main = () => {
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
                                   src={htmlPic}
-                                  alt=""
+                                  alt="html image"
                                   width="48"
                                   height="48"
                               />
@@ -51,7 +51,7 @@ const Main = () => {
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
                                   src={cssPic}
-                                  alt=""
+                                  alt="css image"
                                   width="48"
                                   height="48"
                               />
@@ -59,7 +59,7 @@ const Main = () => {
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
                                   src={jsPic}
-                                  alt=""
+                                  alt="javascript image"
                                   width="48"
                                   height="48"
                               />
@@ -67,7 +67,7 @@ const Main = () => {
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
                                   src={tailPic}
-                                  alt=""
+                                  alt="tailwind image"
                                   width="48"
                                   height="48"
                               />
@@ -75,7 +75,7 @@ const Main = () => {
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
                                   src={nextPic}
-                                  alt=""
+                                  alt="nextjs image"
                                   width="48"
                                   height="48"
                               />
@@ -83,7 +83,7 @@ const Main = () => {
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
                                   src={reactPic}
-                                  alt=""
+                                  alt="react image"
                                   width="48"
                                   height="48"
                               />

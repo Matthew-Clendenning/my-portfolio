@@ -78,18 +78,26 @@ const navbar = () => {
                 </div>
                 <div className='py-4 flex flex-col'>
                     <ul className='uppercase'>
-                        <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>
-                            <li className='py-4 text-sm'>Home</li>
-                        </Link>
-                        <Link to="about" spy={true} smooth={true} offset={0} duration={500}>
-                            <li className='py-4 text-sm'>About</li>
-                        </Link>
-                        <Link to="projects" spy={true} smooth={true} offset={0} duration={500}>
-                            <li className='py-4 text-sm'>Projects</li>
-                        </Link>
-                        <Link to="contact" spy={true} smooth={true} offset={0} duration={500}>
-                            <li className='py-4 text-sm'>Contact</li>
-                        </Link>
+                        <li className='py-4 text-sm'>
+                            <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>
+                                Home
+                            </Link>
+                        </li>
+                        <li className='py-4 text-sm'>
+                            <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>
+                                About
+                            </Link>
+                        </li>
+                        <li className='py-4 text-sm'>
+                            <Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>
+                                Projects
+                            </Link>
+                        </li>
+                        <li className='py-4 text-sm'>
+                            <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>
+                                Contact
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>

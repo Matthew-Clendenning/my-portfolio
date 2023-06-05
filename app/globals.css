@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .clip-path {
+    clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+  }
+}
+
 @layer base {
   body {
     @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
