@@ -38,7 +38,7 @@ const navbar = () => {
                         </Link>
                     </li>
                     <li className="ml-10 text-sm uppercase relative">
-                        <Link to="about" spy={true} smooth={true} offset={0} duration={500} className="before:block before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5 before:bg-[#003860] before:transition-all before:duration-300 before:ease-in-out before:hover:w-full">
+                        <Link to="about" spy={true} smooth={true} offset={-40} duration={500} className="before:block before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5 before:bg-[#003860] before:transition-all before:duration-300 before:ease-in-out before:hover:w-full">
                             About
                         </Link>                    
                     </li>
