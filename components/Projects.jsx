@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import gerrardPic from '../public/gerrardmachinery.JPG'
+import gerrardPic from '../public/gerrardmachinery.JPG';
 import htmlPic from '../public/html.png'
 import jsPic from '../public/javascript.png'
 import reactImg from '../public/react.png'
