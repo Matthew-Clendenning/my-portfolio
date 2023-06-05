@@ -6,11 +6,11 @@ import { AiOutlineMail } from 'react-icons/ai';
 import Marquee from 'react-fast-marquee';
 import Image from 'next/image';
 import htmlPic from '../public/html.png'
-import cssPic from '../public/html.png'
-import jsPic from '../public/html.png'
-import nextPic from '../public/html.png'
-import tailPic from '../public/html.png'
-import reactPic from '../public/html.png'
+import cssPic from '../public/css.png'
+import jsPic from '../public/javascript.png'
+import nextPic from '../public/nextjs.png'
+import tailPic from '../public/tailwind.png'
+import reactPic from '../public/react.png'
 
 const Main = () => {
   return (
