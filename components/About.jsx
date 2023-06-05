@@ -22,7 +22,7 @@ const About = () => {
                 </p>
             </div>
             <div className='flex justify-center rounded-lg drop-shadow-4xl md:hover:scale-105 md:ease-in md:duration-300'>
-                <img src="../about-pic.png" width="200" height="200"/>
+                <img src="../html.png" width="200" height="200"/>
                 {/*<Image src="/../public/about-pic.jpg" width='210' height='200'/>*/}
             </div>
         </div>
