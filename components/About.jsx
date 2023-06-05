@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <div className='w-full md:h-screen flex items-center py-16'>
+    <div className='w-full 2xl:h-screen flex items-center'>
         <div className='max-w-[1200px] m-auto sm:grid items-center p-5 justify-items-center md:justify-items-end grid-cols-3 gap-8'>
             <div className='col-span-2'>
-                <h3 className='uppercase text-3xl tracking-widest text-[#004a7e] pb-2'>About Me</h3>
+                <h3 className='uppercase text-2xl tracking-widest text-[#004a7e] pb-2'>About Me</h3>
                 <p className='py-2 text-gray-600'>
                     Hello! I'm Matthew Clendenning, a passionate front-end developer that wants to
                     create visually appealing interactive web applications. I have 1 year of
