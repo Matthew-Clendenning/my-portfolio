@@ -4,7 +4,6 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 import Marquee from 'react-fast-marquee';
-import Image from 'next/image';
 
 const Main = () => {
   return (
