@@ -35,40 +35,40 @@ const Main = () => {
                   <Marquee >
                       <div className='flex py-8'>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
-                              <Image 
-                                  src="/../public/html.png"
+                              <img 
+                                  src="../html.png"
                                   alt=""
                                   width="48"
                                   height="48"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
-                              <Image 
-                                  src="/../public/css.png"
+                              <img 
+                                  src="../css.png"
                                   alt=""
                                   width="48"
                                   height="48"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
-                              <Image 
-                                  src="/../public/javascript.png"
+                              <img 
+                                  src="../javascript.png"
                                   alt=""
                                   width="48"
                                   height="48"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
-                              <Image 
-                                  src="/../public/tailwind.png"
+                              <img 
+                                  src="../tailwind.png"
                                   alt=""
                                   width="48"
                                   height="48"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
-                              <Image 
-                                  src="/../public/nextjs.png"
+                              <img 
+                                  src="../nextjs.png"
                                   alt=""
                                   width="48"
                                   height="48"
