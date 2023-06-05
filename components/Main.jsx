@@ -30,7 +30,7 @@ const Main = () => {
                     <AiOutlineMail />
                   </div>
                 </div>
-                <h3 className='uppercase text-center text-2xl tracking-widest text-[#004a7e] pb-2'>Skills</h3>
+                <h3 className='uppercase text-center text-2xl tracking-wide text-[#004a7e] pb-2'>Skills</h3>
                 <div className='sm:max-w-[550px] max-w-[280px] m-auto'>
                   <Marquee >
                       <div className='flex py-4'>
