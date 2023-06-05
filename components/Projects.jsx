@@ -55,7 +55,7 @@ const Projects = () => {
                         <div className='grid items-center'>
                             <h4>View Site</h4>
                             <div className='flex gap-2'>
-                                <span className='rounded-full shadow-md shadow-gray-400 p-2 cursor-pointer hover:scale-110 ease-in duration-150'>
+                                <span className='rounded-full shadow-md shadow-gray-400 p-1.5 cursor-pointer hover:scale-110 ease-in duration-150'>
                                     <BsGithub className='w-[26px] h-[26px]'/>
                                 </span>
                             </div>
