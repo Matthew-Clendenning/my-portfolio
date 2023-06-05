@@ -8,7 +8,8 @@ const About = () => {
     <div id='about' className='w-full md:h-screen flex items-center py-16 bg-gradient-to-r from-[#ecf0f3] to-[#a5c5dc] relative clip-path'>
         <div className='max-w-[1240px] m-auto md:grid items-center p-5 justify-items-center md:justify-items-end grid-cols-3 gap-8'>
             <div className='col-span-2'>
-                <h3 className='uppercase text-2xl tracking-wide text-[#004a7e] pb-2'>About Me</h3>
+                <p className='text-xl tacking-wide uppercase text-[#004a7e]'>About</p>
+                <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'>
                     Hello! I'm Matthew Clendenning, a passionate front-end developer that wants to
                     create visually appealing interactive web applications. I have 1 year of
