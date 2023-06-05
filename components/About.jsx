@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <div className='w-full 2xl:h-screen flex items-center py-16'>
+    <div id='about' className='w-full md:h-screen flex items-center py-16'>
         <div className='max-w-[1240px] m-auto md:grid items-center p-5 justify-items-center md:justify-items-end grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <h3 className='uppercase text-2xl tracking-wide text-[#004a7e] pb-2'>About Me</h3>
@@ -18,7 +18,7 @@ const About = () => {
                     year I have learned and cultivated a deep understanding of HTML5, CSS3, and Javascript.
                 </p>
                 <p className='py-2 text-gray-600'>
-                    I invite you to take a look at my <Link href="/"><span className='bg-gray-300 underline underline-offset-1'>projects</span></Link>, and please contact me about any business
+                    I invite you to take a look at my <Link href="/#projects"><span className='bg-gray-300 underline underline-offset-1'>projects</span></Link>, and please contact me about any business
                     inquiries!
                 </p>
             </div>

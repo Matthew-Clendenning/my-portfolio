@@ -1,15 +1,15 @@
 import React from 'react';
 import Typewriter from './Typewriter';
 import { FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill, BsGithub } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 import Marquee from 'react-fast-marquee';
 import Image from 'next/image';
 
 const Main = () => {
   return (
-    <div className='w-full h-screen text-center'>
-        <div className='max-w-[1240px] w-full h-full mx-auto flex justify-center items-center'>
+    <div id='home' className='w-full h-screen text-center'>
+        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div className='transition ease-in-out delay-300 animate-fadeIn'>
                 <Typewriter />
                 <p className='p-2 text-gray-600 md:max-w-[70%] m-auto'>I'm a front-end web developer 
@@ -33,7 +33,7 @@ const Main = () => {
                 <h3 className='uppercase text-center text-2xl tracking-wide text-[#004a7e] pb-2'>Skills</h3>
                 <div className='sm:max-w-[550px] max-w-[280px] m-auto'>
                   <Marquee >
-                      <div className='flex py-4'>
+                      <div className='flex py-8'>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
                                   src="/../public/assets/skills/html.png"
