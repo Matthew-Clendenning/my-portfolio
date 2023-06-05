@@ -24,7 +24,7 @@ const About = () => {
             </div>
             <div className='flex justify-center rounded-lg drop-shadow-4xl md:hover:scale-105 md:ease-in md:duration-300'>
                 <Image
-                    src="../public/assets/about-pic.png"
+                    src="../public/about-pic.png"
                     width='210'
                     height='200'
                 />
