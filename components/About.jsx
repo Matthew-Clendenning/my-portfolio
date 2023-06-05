@@ -24,7 +24,7 @@ const About = () => {
                 </p>
             </div>
             <div className='flex justify-center rounded-lg drop-shadow-4xl md:hover:scale-105 md:ease-in md:duration-300'>
-                <Image src={aboutPic} width='210' height='200'/>
+                <Image src={aboutPic} width='210' height='200' alt="person coding"/>
             </div>
         </div>
     </div>
