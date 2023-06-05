@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-import Pic from '../public/about-pic.png'
+import aboutPic from '../public/about-pic.png'
 import Image from 'next/image';
 
 const About = () => {
@@ -24,8 +24,7 @@ const About = () => {
                 </p>
             </div>
             <div className='flex justify-center rounded-lg drop-shadow-4xl md:hover:scale-105 md:ease-in md:duration-300'>
-                {/*<img src="../html.png" width="200" height="200"/>*/}
-                <Image src={Pic} width='210' height='200'/>
+                <Image src={aboutPic} width='210' height='200'/>
             </div>
         </div>
     </div>

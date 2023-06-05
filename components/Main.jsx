@@ -4,6 +4,14 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 import Marquee from 'react-fast-marquee';
+import Image from 'next/image';
+import htmlPic from '../public/html.png'
+import cssPic from '../public/html.png'
+import jsPic from '../public/html.png'
+import nextPic from '../public/html.png'
+import tailPic from '../public/html.png'
+import reactPic from '../public/html.png'
+import next from 'next/types';
 
 const Main = () => {
   return (
@@ -34,40 +42,40 @@ const Main = () => {
                   <Marquee >
                       <div className='flex py-8'>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
-                              <img 
-                                  src="../html.png"
+                              <Image 
+                                  src={htmlPic}
                                   alt=""
                                   width="48"
                                   height="48"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
-                              <img 
-                                  src="../css.png"
+                              <Image 
+                                  src={cssPic}
                                   alt=""
                                   width="48"
                                   height="48"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
-                              <img 
-                                  src="../javascript.png"
+                              <Image 
+                                  src={jsPic}
                                   alt=""
                                   width="48"
                                   height="48"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
-                              <img 
-                                  src="../tailwind.png"
+                              <Image 
+                                  src={tailPic}
                                   alt=""
                                   width="48"
                                   height="48"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
-                              <img 
-                                  src="../nextjs.png"
+                              <Image 
+                                  src={nextPic}
                                   alt=""
                                   width="48"
                                   height="48"
