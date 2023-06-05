@@ -11,7 +11,6 @@ import jsPic from '../public/html.png'
 import nextPic from '../public/html.png'
 import tailPic from '../public/html.png'
 import reactPic from '../public/html.png'
-import next from 'next/types';
 
 const Main = () => {
   return (
@@ -76,6 +75,14 @@ const Main = () => {
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
                                   src={nextPic}
+                                  alt=""
+                                  width="48"
+                                  height="48"
+                              />
+                          </div>
+                          <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
+                              <Image 
+                                  src={reactPic}
                                   alt=""
                                   width="48"
                                   height="48"
