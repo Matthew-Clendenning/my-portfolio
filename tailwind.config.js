@@ -7,6 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/../public/assets/about-pic.png')",
+      },
+      dropShadow: {
+        '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
+        '4xl': [
+            '0 0px 35px rgba(0, 0, 0, 0.35)',
+            '0 45px 65px rgba(0, 0, 0, 0.05)'
+        ]
+      },
       animation: {
         fadeIn: "fadeIn 1.5s ease-in-out forwards"
       },

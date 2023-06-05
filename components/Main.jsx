@@ -7,10 +7,10 @@ import { AiOutlineMail } from 'react-icons/ai';
 const Main = () => {
   return (
     <div className='w-full h-screen text-center'>
-        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+        <div className='max-w-[1240px] w-full h-full mx-auto flex justify-center items-center'>
             <div className='transition ease-in-out delay-300 animate-fadeIn'>
                 <Typewriter />
-                <p className='py-2 text-gray-600 max-w-[70%] m-auto'>I'm a front-end web developer 
+                <p className='py-2 text-gray-600 md:max-w-[70%] m-auto'>I'm a front-end web developer 
                   specializing in building and 
                   (occasionally designing) 
                   exceptional digital experiences.
