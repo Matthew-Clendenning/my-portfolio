@@ -12,7 +12,7 @@ const Projects = () => {
             <h3 className='uppercase text-2xl tracking-wide text-[#004a7e] pb-2'>Projects</h3>
             <div className='grid md:grid-cols-2 gap-14'>
                 <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:scale-105 ease-in-out duration-500 hover:bg-gradient-to-r from-[#004a7e] to-[#709dff]'>
-                    <Image src={gerrardPic} width="600" height="600" alt="gerrard machinery website"/>
+                    <Image src={gerrardPic} alt="gerrard machinery website"/>
                 </div>
                 <div className='grid gap-10'>
                     <h3>
