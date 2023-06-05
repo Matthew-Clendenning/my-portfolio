@@ -6,6 +6,7 @@ import gerrardPic from '../public/gerrardmachinery.jpeg'
 import loansPic from '../public/studentloanscalc.jpeg'
 import jsPic from '../public/javascript.png'
 import reactImg from '../public/react.png'
+import { BsGithub } from 'react-icons/bs';
 
 const Projects = () => {
   return (
@@ -19,44 +20,52 @@ const Projects = () => {
                         <Image src={gerrardPic} width="552" height="280" alt="gerrard machinery website"/>
                     </Link>
                 </div>
-                <div className='grid gap-10'>
+                <div className='grid items-center'>
                     <h3>
                         blah blah blah
                         blah blah blah
-                        blah blah blah
-                        blah blah blah
-                        blah blah blah
-                        blah blah blah
                     </h3>
-                    <div className='flex items-end'>
-                        <div className='grid'>
+                    <div className='flex gap-10'>
+                        <div className='grid items-center'>
+                            <h4>View Site</h4>
+                            <div className='flex gap-2'>
+                                <span className='rounded-full shadow-md shadow-gray-400 p-1.5 cursor-pointer hover:scale-110 ease-in duration-150'>
+                                    <BsGithub className='w-[26px] h-[26px]'/>
+                                </span>
+                            </div>
+                        </div>
+                        <div className='grid items-center'>
                             <h4>Tech-Stack</h4>
                             <div className='flex gap-2'>
-                                <span className='p-1.5 rounded-xl shadow-lg shadow-gray-400 w-max'><Image src={htmlPic} alt="html picture" width="38" height="38"/></span>
-                                <span className='p-1.5 rounded-xl shadow-lg shadow-gray-400 w-max'><Image src={jsPic} alt="javascript picture" width="38" height="38"/></span>
-                                <span className='p-1.5 rounded-xl shadow-lg shadow-gray-400 w-max'><Image src={reactImg} alt="react picture" width="38" height="38"/></span>
+                                <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={htmlPic} alt="html picture" width="26" height="26"/></span>
+                                <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={jsPic} alt="javascript picture" width="26" height="26"/></span>
+                                <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={reactImg} alt="react picture" width="26" height="26"/></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='grid md:grid-cols-2 gap-14 mt-80'>
-                <div className='grid gap-10'>
+                <div className='grid items-center gap-10'>
                     <h3>
                         blah blah blah
                         blah blah blah
-                        blah blah blah
-                        blah blah blah
-                        blah blah blah
-                        blah blah blah
                     </h3>
-                    <div className='flex items-end'>
-                        <div className='grid'>
+                    <div className='flex gap-10'>
+                        <div className='grid items-center'>
+                            <h4>View Site</h4>
+                            <div className='flex gap-2'>
+                                <span className='rounded-full shadow-md shadow-gray-400 p-2 cursor-pointer hover:scale-110 ease-in duration-150'>
+                                    <BsGithub className='w-[26px] h-[26px]'/>
+                                </span>
+                            </div>
+                        </div>
+                        <div className='grid items-center'>
                             <h4>Tech-Stack</h4>
                             <div className='flex gap-2'>
-                                <span className='p-1.5 rounded-xl shadow-lg shadow-gray-400 w-max'><Image src={htmlPic} alt="html picture" width="38" height="38"/></span>
-                                <span className='p-1.5 rounded-xl shadow-lg shadow-gray-400 w-max'><Image src={jsPic} alt="javascript picture" width="38" height="38"/></span>
-                                <span className='p-1.5 rounded-xl shadow-lg shadow-gray-400 w-max'><Image src={reactImg} alt="react picture" width="38" height="38"/></span>
+                                <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={htmlPic} alt="html picture" width="26" height="26"/></span>
+                                <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={jsPic} alt="javascript picture" width="26" height="26"/></span>
+                                <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={reactImg} alt="react picture" width="26" height="26"/></span>
                             </div>
                         </div>
                     </div>

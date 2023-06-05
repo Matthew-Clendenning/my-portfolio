@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen flex items-center py-16 bg-gradient-to-r from-[#ecf0f3] to-[#a5c5dc] relative clip-path'>
+    <div id='about' className='w-full md:h-screen flex items-center py-16 bg-gradient-to-r from-[#ecf0f3] to-[#346f99] relative clip-path'>
         <div className='max-w-[1240px] m-auto md:grid items-center p-5 justify-items-center md:justify-items-end grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <p className='text-xl tacking-wide uppercase text-[#004a7e]'>About</p>
@@ -20,7 +20,7 @@ const About = () => {
                     year I have learned and cultivated a deep understanding of HTML5, CSS3, and Javascript.
                 </p>
                 <p className='py-2 text-gray-600'>
-                    I invite you to take a look at my <Link href="/#projects"><span className='bg-gray-300 underline underline-offset-1'>projects</span></Link>, and please contact me about any business
+                    I invite you to take a look at my <Link href="/#projects"><span className='bg-gray-200 hover:bg-[#004a7e] hover:text-white underline underline-offset-1'>projects</span></Link>, and please contact me about any business
                     inquiries!
                 </p>
             </div>
