@@ -36,7 +36,7 @@ const Main = () => {
                       <div className='flex py-8'>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
-                                  src="/../public/assets/skills/html.png"
+                                  src="../public/assets/skills/html.png"
                                   alt=""
                                   width="48"
                                   height="48"
@@ -44,7 +44,7 @@ const Main = () => {
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
-                                  src="/../public/assets/skills/css.png"
+                                  src="../public/assets/skills/css.png"
                                   alt=""
                                   width="48"
                                   height="48"
@@ -52,7 +52,7 @@ const Main = () => {
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
-                                  src="/../public/assets/skills/javascript.png"
+                                  src="../public/assets/skills/javascript.png"
                                   alt=""
                                   width="48"
                                   height="48"
@@ -60,7 +60,7 @@ const Main = () => {
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
-                                  src="/../public/assets/skills/tailwind.png"
+                                  src="../public/assets/skills/tailwind.png"
                                   alt=""
                                   width="48"
                                   height="48"
@@ -68,7 +68,7 @@ const Main = () => {
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg md:hover:scale-110 md:ease-in-out md:duration-300'>
                               <Image 
-                                  src="/../public/assets/skills/nextjs.png"
+                                  src="../public/assets/skills/nextjs.png"
                                   alt=""
                                   width="48"
                                   height="48"
