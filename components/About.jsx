@@ -24,7 +24,7 @@ const About = () => {
                     inquiries!
                 </p>
             </div>
-            <div className='flex justify-center rounded-lg drop-shadow-4xl md:hover:scale-105 md:ease-in md:duration-300'>
+            <div className='flex justify-center rounded-lg drop-shadow-4xl sm:hover:scale-105 sm:ease-in sm:duration-300'>
                 <Image src={aboutPic} width='250' height='250' alt="person coding"/>
             </div>
         </div>
