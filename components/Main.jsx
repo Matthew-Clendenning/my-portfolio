@@ -26,13 +26,13 @@ const Main = () => {
                   front-end web applications.
                 </p>
                 <div className='flex items-center justify-evenly max-w-[330px] m-auto py-4 mb-14'>
-                  <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer sm:hover:text-[#0077B5] sm:hover:scale-110 sm:ease-in sm:duration-150'>
+                  <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer sm:hover:text-[#0077B5] sm:hover:scale-110 sm:ease-in sm:duration-150'>
                     <FaLinkedinIn />
                   </div>
-                  <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer sm:hover:scale-110 sm:ease-in sm:duration-150'>
+                  <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer sm:hover:scale-110 sm:ease-in sm:duration-150'>
                     <BsGithub />
                   </div>
-                  <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer sm:hover:text-[#0072C6] sm:hover:scale-110 sm:ease-in sm:duration-150'>
+                  <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer sm:hover:text-[#0072C6] sm:hover:scale-110 sm:ease-in sm:duration-150'>
                     <AiOutlineMail />
                   </div>
                 </div>
