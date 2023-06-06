@@ -8,6 +8,7 @@ export const content = [
 export const theme = {
   extend: {
     dropShadow: {
+      'xs': '0 0 0 #004a7e',
       '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
       '4xl': [
         '0 0px 35px rgba(0, 0, 0, 0.35)',
