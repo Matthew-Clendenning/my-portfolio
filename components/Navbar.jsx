@@ -89,7 +89,7 @@ const navbar = () => {
                             </Link>
                         </li>
                         <li className='py-4 text-sm'>
-                            <Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>
+                            <Link to="projects" spy={true} smooth={true} offset={-60} duration={500}>
                                 Projects
                             </Link>
                         </li>

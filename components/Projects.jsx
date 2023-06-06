@@ -14,7 +14,7 @@ const Projects = () => {
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tacking-wide uppercase text-[#004a7e]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
-            <div className='grid lg:grid-cols-2 sm:gap-8 gap-10 mb-64'>
+            <div className='grid lg:grid-cols-2 sm:gap-8 gap-10 mb-96'>
                 <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 md:hover:scale-105 md:ease-in-out md:duration-500 bg-gradient-to-r from-[#ecf0f3] to-[#346f99]'>
                     <Link href="https://gerrardgroupinc.netlify.app/" target="_blank">
                         <Image src={gerrardPic} alt="gerrard machinery website"/>
