@@ -23,7 +23,7 @@ const navbar = () => {
     },[])
 
   return (
-    <div className={shadow ? 'sticky left-0 right-0 bottom-0 top-0 w-full h-20 shadow-xl z-[9999] bg-white' : 'sticky left-0 right-0 bottom-0 top-0 w-full h-20 z-[9999] bg-white'}>
+    <div className={shadow ? 'sticky left-0 right-0 bottom-0 top-0 w-full h-20 shadow-xl transition-shadow duration-500 z-[9999] bg-white' : 'sticky left-0 right-0 bottom-0 top-0 w-full h-20 z-[9999] transition-shadow duration-300 bg-white'}>
         <div className='flex justify-between items-center w-full h-full px-6 2xl:px-16'>
             <h2 className='text-[#004a7e]'>
                 <Link to="home" spy={true} smooth={true} offset={-100} duration={500} className='cursor-pointer'>
