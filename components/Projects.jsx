@@ -14,17 +14,17 @@ const Projects = () => {
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tacking-wide uppercase text-[#004a7e]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
-            <div className='grid justify-items-center md:grid-cols-2'>
+            <div className='grid md:grid-cols-2 sm:gap-0 gap-10'>
                 <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group bg-gradient-to-r from-[#ecf0f3] to-[#346f99]'>
                     <Link href="https://gerrardgroupinc.netlify.app/" target="_blank">
                         <Image src={gerrardPic} alt="gerrard machinery website"/>
                     </Link>
                 </div>
-                <div className='grid justify-items-center items-center'>
-                    <h3>
-                        blah blah blah
-                        blah blah blah
-                    </h3>
+                <div className='grid content-between justify-center sm:gap-0 gap-10'>
+                    <div className='grid gap-6'>
+                        <h2>Gerrardgroupinc.com</h2>
+                        <h3>blah blah blah blah blah blah</h3>
+                    </div>
                     <div className='flex gap-10'>
                         <div className='flex items-center gap-10'>
                             <h4 className='p-2 h-max rounded-lg bg-gray-300'>View Site</h4>
