@@ -17,12 +17,12 @@ const Projects = () => {
             <div className='grid md:grid-cols-2 lg:gap-8 gap-10'>
                 <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group lg:hover:scale-105 lg:ease-in-out lg:duration-500 bg-gradient-to-r from-[#ecf0f3] to-[#346f99]'>
                     <Link href="https://gerrardgroupinc.netlify.app/" target="_blank">
-                        <Image src={gerrardPic} width="564" height="284" alt="gerrard machinery website"/>
+                        <Image src={gerrardPic} alt="gerrard machinery website"/>
                     </Link>
                 </div>
                 <div className='md:max-w-none max-w-[400px] mx-auto grid content-between justify-center lg:gap-0 gap-10'>
-                    <div className='grid gap-6'>
-                        <h3 className='lg:text-left text-center'>Gerrardgroupinc.netlify.app</h3>
+                    <div className='flex flex-col flex-wrap'>
+                        <h2 className='lg:text-left text-center'>Gerrardgroupinc.netlify.app</h2>
                         <p className='text-gray-800 lg:text-left text-center'>
 
                         </p>
