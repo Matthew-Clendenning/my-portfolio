@@ -68,7 +68,11 @@ const navbar = () => {
             >
                 <div>
                     <div className='flex w-full items-center justify-between'>
-                        <h1 className='text-[#004a7e]'>MC</h1>
+                        <h1 className='text-[#004a7e]'>
+                            <Link to="home" spy={true} smooth={true} offset={-100} duration={500} className='cursor-pointer'>
+                                MC
+                            </Link>
+                        </h1>
                         <div onClick={handleNav} className='rounded-full shadow-md shadow-gray-400 p-2 cursor-pointer'>
                             <AiOutlineClose />
                         </div>
