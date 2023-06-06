@@ -24,7 +24,7 @@ const Projects = () => {
                     <div className='grid gap-6'>
                         <h3 className='flex flex-wrap lg:items-start items-center'>Gerrardgroupinc.netlify.app</h3>
                         <p className='text-gray-800 lg:text-left text-center'>
-
+                            
                         </p>
                     </div>
                     <div className='flex md:justify-normal justify-center gap-6'>
