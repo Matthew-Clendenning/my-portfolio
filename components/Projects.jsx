@@ -15,7 +15,7 @@ const Projects = () => {
             <p className='text-xl tacking-wide uppercase text-[#004a7e]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 sm:gap-0 gap-10'>
-                <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group bg-gradient-to-r from-[#ecf0f3] to-[#346f99]'>
+                <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group sm:hover:scale-105 sm:ease-in-out sm:duration-500 bg-gradient-to-r from-[#ecf0f3] to-[#346f99]'>
                     <Link href="https://gerrardgroupinc.netlify.app/" target="_blank">
                         <Image src={gerrardPic} alt="gerrard machinery website"/>
                     </Link>
@@ -26,9 +26,9 @@ const Projects = () => {
                         <h3 className='sm:text-left text-center'>blah blah blah blah blah blah</h3>
                     </div>
                     <div className='flex gap-6'>
-                        <div className='flex items-center gap-10'>
+                        <div className='flex items-end gap-10'>
                             <h4 className='p-2 h-max rounded-lg bg-gray-300'>View Site</h4>
-                            <div className='grid items-center'>
+                            <div className='grid'>
                                 <h4>Tech-Stack</h4>
                                 <div className='flex gap-2'>
                                     <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={htmlPic} alt="html picture" width="26" height="26"/></span>
