@@ -31,7 +31,7 @@ const navbar = () => {
                 </Link>
             </h2>
             <div>
-                <ul class="hidden md:flex">
+                <ul className="hidden md:flex">
                     <li className="ml-10 text-sm uppercase relative">
                         <Link to="home" spy={true} smooth={true} offset={-100} duration={500} className="before:block before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5 before:bg-[#003860] before:transition-all before:duration-300 before:ease-in-out before:hover:w-full">
                             Home

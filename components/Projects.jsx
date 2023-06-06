@@ -14,17 +14,17 @@ const Projects = () => {
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tacking-wide uppercase text-[#004a7e]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
-            <div className='grid md:grid-cols-2 lg:gap-8 gap-10'>
-                <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group lg:hover:scale-105 lg:ease-in-out lg:duration-500 bg-gradient-to-r from-[#ecf0f3] to-[#346f99]'>
+            <div className='grid md:grid-cols-2 sm:gap-0 gap-10'>
+                <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 lg:hover:scale-105 lg:ease-in-out lg:duration-500 bg-gradient-to-r from-[#ecf0f3] to-[#346f99]'>
                     <Link href="https://gerrardgroupinc.netlify.app/" target="_blank">
                         <Image src={gerrardPic} alt="gerrard machinery website"/>
                     </Link>
                 </div>
-                <div className='md:max-w-none max-w-[400px] mx-auto grid content-between justify-center lg:gap-0 gap-10'>
+                <div className='sm:max-w-none sm:m-0 max-w-[400px] mx-auto grid content-between justify-center lg:gap-0 gap-10'>
                     <div className='grid gap-6'>
-                        <h3 className='flex flex-wrap lg:items-start items-center'>Gerrardgroupinc.netlify.app</h3>
+                        <h3 className='lg:text-left text-center'>Gerrardgroupinc.netlify.app</h3>
                         <p className='text-gray-800 lg:text-left text-center'>
-                            
+
                         </p>
                     </div>
                     <div className='flex md:justify-normal justify-center gap-6'>
