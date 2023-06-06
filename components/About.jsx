@@ -20,7 +20,7 @@ const About = () => {
                     year I have learned and cultivated a deep understanding of HTML5, CSS3, and Javascript.
                 </p>
                 <p className='py-2 text-gray-800'>
-                    I invite you to take a look at my <Link href="/#projects"><span className='bg-[#245c84] text-white underline underline-offset-3'>projects</span></Link>, and please contact me about any business
+                    I invite you to take a look at my <Link href="/#projects"><span className='bg-blue-500 p-0.5 rounded-sm text-white underline underline-offset-3'>projects</span></Link>, and please contact me about any business
                     inquiries!
                 </p>
             </div>
