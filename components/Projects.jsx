@@ -29,7 +29,7 @@ const Projects = () => {
                         <div className='flex items-end gap-10'>
                             <h4 className='p-2 h-max rounded-lg bg-gray-300'>View Site</h4>
                             <div className='grid'>
-                                <h4>Tech-Stack</h4>
+                                <h4 className=''>Tech-Stack</h4>
                                 <div className='flex gap-2'>
                                     <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={htmlPic} alt="html picture" width="26" height="26"/></span>
                                     <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={jsPic} alt="javascript picture" width="26" height="26"/></span>
