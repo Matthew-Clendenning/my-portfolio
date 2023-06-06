@@ -15,7 +15,7 @@ const Projects = () => {
             <p className='text-xl tacking-wide uppercase text-[#004a7e]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 sm:gap-0 gap-10'>
-                <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 lg:hover:scale-105 lg:ease-in-out lg:duration-500 bg-gradient-to-r from-[#ecf0f3] to-[#346f99]'>
+                <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 md:hover:scale-105 md:ease-in-out md:duration-500 bg-gradient-to-r from-[#ecf0f3] to-[#346f99]'>
                     <Link href="https://gerrardgroupinc.netlify.app/" target="_blank">
                         <Image src={gerrardPic} alt="gerrard machinery website"/>
                     </Link>
@@ -37,8 +37,8 @@ const Projects = () => {
                                     <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={reactImg} alt="react picture" width="26" height="26"/></span>
                                 </div>
                             </div>*/}
-                            <h4 className='p-2 h-max text-white bg-blue-500 rounded-lg shadow-md shadow-gray-400 cursor-pointer hover:shadow-blue-500/50 hover:shadow-lg hover:scale-105 ease-in duration-150'>View Site</h4>
-                            <span className='rounded-full shadow-md shadow-gray-400 p-1.5 cursor-pointer hover:scale-105 ease-in duration-150'>
+                            <h4 className='p-2 h-max text-white bg-blue-500 rounded-lg shadow-md shadow-gray-400 cursor-pointer md:hover:shadow-blue-500/50 md:hover:shadow-lg md:hover:scale-105 md:ease-in md:duration-150'>View Site</h4>
+                            <span className='rounded-full shadow-md shadow-gray-400 p-1.5 cursor-pointer md:hover:scale-105 md:ease-in md:duration-150'>
                                 <BsGithub className='w-[28px] h-[28px]'/>
                             </span>
                         </div>
