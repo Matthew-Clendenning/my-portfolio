@@ -22,7 +22,7 @@ const Projects = () => {
                 </div>
                 <div className='md:max-w-none max-w-[400px] mx-auto grid content-between justify-center lg:gap-0 gap-10'>
                     <div className='grid gap-6'>
-                        <h2 className='lg:text-left text-center'>Gerrardgroupinc.netlify.app</h2>
+                        <h3 className='lg:text-left text-center'>Gerrardgroupinc.netlify.app</h3>
                         <p className='text-gray-800 lg:text-left text-center'>
 
                         </p>
