@@ -22,10 +22,10 @@ const Projects = () => {
                 </div>
                 <div className='grid content-between justify-center sm:gap-0 gap-10'>
                     <div className='grid gap-6'>
-                        <h2>Gerrardgroupinc.com</h2>
-                        <h3>blah blah blah blah blah blah</h3>
+                        <h2 className='sm:text-left text-center'>Gerrardgroupinc.com</h2>
+                        <h3 className='sm:text-left text-center'>blah blah blah blah blah blah</h3>
                     </div>
-                    <div className='flex gap-10'>
+                    <div className='flex gap-6'>
                         <div className='flex items-center gap-10'>
                             <h4 className='p-2 h-max rounded-lg bg-gray-300'>View Site</h4>
                             <div className='grid items-center'>
