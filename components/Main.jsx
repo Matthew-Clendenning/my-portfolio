@@ -46,7 +46,7 @@ const Main = () => {
                                   alt="html image"
                                   width="48"
                                   height="48"
-                                  priority='true'
+                                  loading="lazy"
                                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               />
                           </div>
@@ -56,7 +56,7 @@ const Main = () => {
                                   alt="css image"
                                   width="48"
                                   height="48"
-                                  priority='true'
+                                  loading="lazy"
                                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               />
                           </div>
@@ -66,7 +66,7 @@ const Main = () => {
                                   alt="javascript image"
                                   width="48"
                                   height="48"
-                                  priority='true'
+                                  loading="lazy"
                                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               />
                           </div>
@@ -76,7 +76,7 @@ const Main = () => {
                                   alt="tailwind image"
                                   width="48"
                                   height="48"
-                                  priority='true'
+                                  loading="lazy"
                                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               />
                           </div>
@@ -86,7 +86,7 @@ const Main = () => {
                                   alt="nextjs image"
                                   width="48"
                                   height="48"
-                                  priority='true'
+                                  loading="lazy"
                                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               />
                           </div>
@@ -96,7 +96,7 @@ const Main = () => {
                                   alt="react image"
                                   width="48"
                                   height="48"
-                                  priority='true'
+                                  loading="lazy"
                                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               />
                           </div>
