@@ -36,14 +36,6 @@ const Projects = () => {
                     </div>
                     <div className='flex lg:justify-normal justify-center gap-6'>
                         <div className='flex items-center gap-4'>
-                            {/*<div className='grid'>
-                                <h4 className=''>Tech Stack</h4>
-                                <div className='flex gap-2'>
-                                    <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={htmlPic} alt="html picture" width="26" height="26"/></span>
-                                    <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={jsPic} alt="javascript picture" width="26" height="26"/></span>
-                                    <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={reactImg} alt="react picture" width="26" height="26"/></span>
-                                </div>
-                            </div>*/}
                             <h4 className='p-2 h-max text-white bg-[#22334a] rounded-lg shadow-md shadow-gray-400 cursor-pointer sm:hover:shadow-blue-500/50 sm:hover:shadow-lg sm:hover:scale-105 sm:ease-in sm:duration-150'>
                                 <Link href="https://gerrardgroupinc.netlify.app/" target='_blank'>
                                     View Site
@@ -80,14 +72,6 @@ const Projects = () => {
                     </div>
                     <div className='flex lg:justify-normal justify-center gap-6'>
                         <div className='flex items-center gap-4'>
-                            {/*<div className='grid'>
-                                <h4 className=''>Tech Stack</h4>
-                                <div className='flex gap-2'>
-                                    <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={htmlPic} alt="html picture" width="26" height="26"/></span>
-                                    <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={jsPic} alt="javascript picture" width="26" height="26"/></span>
-                                    <span className='p-1.5 rounded-xl shadow-md shadow-gray-400 w-max'><Image src={reactImg} alt="react picture" width="26" height="26"/></span>
-                                </div>
-                            </div>*/}
                             <h4 className='p-2 h-max text-white bg-[#1385ff] rounded-lg shadow-md shadow-gray-400 cursor-pointer sm:hover:shadow-blue-500/50 sm:hover:shadow-lg sm:hover:scale-105 sm:ease-in sm:duration-150'>
                                 <Link href="https://mystudentloanscalculator.com/" target='_blank'>
                                     View Site
