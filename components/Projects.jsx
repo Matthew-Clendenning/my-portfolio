@@ -20,6 +20,7 @@ const Projects = () => {
                         <Image 
                             src={gerrardPic} 
                             alt="gerrard machinery website"
+                            priority='true'
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         />
                     </Link>
@@ -63,6 +64,7 @@ const Projects = () => {
                         <Image 
                             src={loansPic} 
                             alt="student loans calculator"
+                            priority='true'
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         />
                     </Link>
