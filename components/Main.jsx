@@ -46,6 +46,7 @@ const Main = () => {
                                   alt="html image"
                                   width="48"
                                   height="48"
+                                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
@@ -54,6 +55,7 @@ const Main = () => {
                                   alt="css image"
                                   width="48"
                                   height="48"
+                                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
@@ -62,6 +64,7 @@ const Main = () => {
                                   alt="javascript image"
                                   width="48"
                                   height="48"
+                                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
@@ -70,6 +73,7 @@ const Main = () => {
                                   alt="tailwind image"
                                   width="48"
                                   height="48"
+                                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
@@ -78,6 +82,7 @@ const Main = () => {
                                   alt="nextjs image"
                                   width="48"
                                   height="48"
+                                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               />
                           </div>
                           <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
@@ -86,6 +91,7 @@ const Main = () => {
                                   alt="react image"
                                   width="48"
                                   height="48"
+                                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               />
                           </div>
                       </div>

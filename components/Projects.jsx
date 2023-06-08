@@ -17,7 +17,11 @@ const Projects = () => {
             <div className='grid lg:grid-cols-2 sm:gap-8 gap-10 mb-48 sm:mb-96'>
                 <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 md:hover:scale-105 md:ease-in-out md:duration-500 bg-gradient-to-r from-[#ecf0f3] to-[#346f99]'>
                     <Link href="https://gerrardgroupinc.netlify.app/" target="_blank">
-                        <Image src={gerrardPic} alt="gerrard machinery website"/>
+                        <Image 
+                            src={gerrardPic} 
+                            alt="gerrard machinery website"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
                     </Link>
                 </div>
                 <div className='sm:max-w-none sm:m-0 max-w-[400px] mx-auto grid content-center justify-center lg:gap-8 gap-10'>
@@ -56,7 +60,11 @@ const Projects = () => {
             <div className='grid lg:grid-cols-2 sm:gap-8 gap-10'>
                 <div className='lg:order-last relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 md:hover:scale-105 md:ease-in-out md:duration-500 bg-gradient-to-r from-[#346f99] to-[#ecf0f3]'>
                     <Link href="https://mystudentloanscalculator.com/" target="_blank">
-                        <Image src={loansPic} alt="student loans calculator"/>
+                        <Image 
+                            src={loansPic} 
+                            alt="student loans calculator"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
                     </Link>
                 </div>
                 <div className='sm:max-w-none sm:m-0 max-w-[400px] mx-auto grid content-center justify-center lg:gap-8 gap-10'>
