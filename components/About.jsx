@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-import htmlPic from '../public/html.png'
+import aboutPic from '../public/about-pic.png'
 import Image from 'next/image';
 
 const About = () => {
@@ -26,7 +26,7 @@ const About = () => {
             </div>
             <div className='flex justify-center rounded-lg drop-shadow-4xl sm:hover:scale-105 sm:ease-in sm:duration-300'>
                 <Image 
-                    src={htmlPic} 
+                    src={aboutPic} 
                     priority='true' 
                     width='250' 
                     alt="person coding"
