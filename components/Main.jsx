@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 import Typewriter from './Typewriter';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
@@ -26,15 +27,21 @@ const Main = () => {
                   front-end web applications.
                 </p>
                 <div className='flex items-center justify-evenly max-w-[330px] m-auto py-4 mb-14'>
-                  <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer sm:hover:text-[#0077B5] sm:hover:scale-110 sm:ease-in sm:duration-150'>
-                    <FaLinkedinIn />
-                  </div>
-                  <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer sm:hover:scale-110 sm:ease-in sm:duration-150'>
-                    <BsGithub />
-                  </div>
-                  <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer sm:hover:text-[#0072C6] sm:hover:scale-110 sm:ease-in sm:duration-150'>
-                    <AiOutlineMail />
-                  </div>
+                    <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 sm:hover:text-[#0077B5] sm:hover:scale-110 sm:ease-in sm:duration-150'>
+                        <Link href="https://www.linkedin.com/in/matthew-clendenning-9b9746267/" target='_blank'>
+                            <FaLinkedinIn />
+                        </Link>
+                    </div>
+                    <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 sm:hover:scale-110 sm:ease-in sm:duration-150'>
+                        <Link href="https://github.com/Matthew-Clendenning?tab=repositories" target='_blank'>
+                            <BsGithub />
+                        </Link>
+                    </div>
+                    <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 sm:hover:text-[#0072C6] sm:hover:scale-110 sm:ease-in sm:duration-150'>
+                        <Link href="mailto:matthewclendenning@outlook.com" target='_blank'>
+                            <AiOutlineMail />
+                        </Link>
+                    </div>
                 </div>
                 <h3 className='uppercase text-center text-2xl tracking-wide text-[#004a7e] pb-2'>Skills</h3>
                 <div className='sm:max-w-[550px] max-w-[280px] m-auto'>
