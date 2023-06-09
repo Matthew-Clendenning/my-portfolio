@@ -10,8 +10,9 @@ export default function TypingEffect() {
                     onInit={(typewriter) => {
                     typewriter.changeDelay(100)
                     typewriter.typeString('Hello')
-                    typewriter.pauseFor(1000)
-                    typewriter.typeString(', ')
+                    typewriter.pauseFor(500)
+                    typewriter.deleteAll(100)
+                    typewriter.pauseFor(100)
                     typewriter.typeString('I\'m Matthew Clendenning')
                         .start()
                     }}
