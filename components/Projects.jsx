@@ -36,13 +36,13 @@ const Projects = () => {
                     </div>
                     <div className='flex lg:justify-normal justify-center gap-6'>
                         <div className='flex items-center gap-4'>
-                            <h4 className='p-2 h-max text-white bg-[#22334a] rounded-lg shadow-md shadow-gray-400 cursor-pointer sm:hover:shadow-blue-500/50 sm:hover:shadow-lg sm:hover:scale-105 sm:ease-in sm:duration-150'>
+                            <h4 className='p-2 h-max text-white bg-[#22334a] rounded-lg shadow-md shadow-gray-400 sm:hover:shadow-blue-500/50 sm:hover:shadow-lg sm:hover:scale-105 sm:ease-in sm:duration-150'>
                                 <Link href="https://gerrardgroupinc.netlify.app/" target='_blank'>
                                     View Site
                                 </Link>
                             </h4>
                             <span className='text-2xl rounded-full shadow-md shadow-gray-400 p-2 cursor-pointer sm:hover:scale-105 sm:ease-in sm:duration-150'>
-                                <Link href="https://github.com/Matthew-Clendenning/gerrardgroupinc" target='_blank'>
+                                <Link title="Github account" href="https://github.com/Matthew-Clendenning/gerrardgroupinc" target='_blank'>
                                     <BsGithub />
                                 </Link>
                             </span>
@@ -72,13 +72,13 @@ const Projects = () => {
                     </div>
                     <div className='flex lg:justify-normal justify-center gap-6'>
                         <div className='flex items-center gap-4'>
-                            <h4 className='p-2 h-max text-white bg-[#1385ff] rounded-lg shadow-md shadow-gray-400 cursor-pointer sm:hover:shadow-blue-500/50 sm:hover:shadow-lg sm:hover:scale-105 sm:ease-in sm:duration-150'>
+                            <h4 className='p-2 h-max text-white bg-[#1385ff] rounded-lg shadow-md shadow-gray-400 sm:hover:shadow-blue-500/50 sm:hover:shadow-lg sm:hover:scale-105 sm:ease-in sm:duration-150'>
                                 <Link href="https://mystudentloanscalculator.com/" target='_blank'>
                                     View Site
                                 </Link>
                             </h4>
                             <span className='text-2xl rounded-full shadow-md shadow-gray-400 p-2 cursor-pointer sm:hover:scale-105 sm:ease-in sm:duration-150'>
-                                <Link href="https://github.com/Matthew-Clendenning/MyStudentLoanCalculator" target='_blank'>
+                                <Link title="Github account" href="https://github.com/Matthew-Clendenning/MyStudentLoanCalculator" target='_blank'>
                                     <BsGithub />
                                 </Link>
                             </span>

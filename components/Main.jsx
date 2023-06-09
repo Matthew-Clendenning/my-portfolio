@@ -28,17 +28,17 @@ const Main = () => {
                 </p>
                 <div className='flex items-center justify-evenly max-w-[330px] m-auto py-4 mb-14'>
                     <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 sm:hover:text-[#0077B5] sm:hover:scale-110 sm:ease-in sm:duration-150'>
-                        <Link href="https://www.linkedin.com/in/matthew-clendenning-9b9746267/" target='_blank'>
+                        <Link title="LinkedIn profile" href="https://www.linkedin.com/in/matthew-clendenning-9b9746267/" target='_blank'>
                             <FaLinkedinIn />
                         </Link>
                     </div>
                     <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 sm:hover:scale-110 sm:ease-in sm:duration-150'>
-                        <Link href="https://github.com/Matthew-Clendenning?tab=repositories" target='_blank'>
+                        <Link title="Github account" href="https://github.com/Matthew-Clendenning?tab=repositories" target='_blank'>
                             <BsGithub />
                         </Link>
                     </div>
                     <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 sm:hover:text-[#0072C6] sm:hover:scale-110 sm:ease-in sm:duration-150'>
-                        <Link href="mailto:matthewclendenning@outlook.com" target='_blank'>
+                        <Link title="Email" href="mailto:matthewclendenning@outlook.com" target='_blank'>
                             <AiOutlineMail />
                         </Link>
                     </div>
