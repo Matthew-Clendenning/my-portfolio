@@ -1,11 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
-import htmlPic from '../public/html.png'
 import gerrardPic from '../public/gerrardmachinery.jpeg'
 import loansPic from '../public/studentloanscalc.jpeg'
-import jsPic from '../public/javascript.png'
-import reactImg from '../public/react.png'
 import { BsGithub } from 'react-icons/bs';
 
 const Projects = () => {
