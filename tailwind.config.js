@@ -16,12 +16,13 @@ export const theme = {
       ]
     },
     animation: {
-      fadeIn: "fadeIn 1.5s ease-in-out forwards"
+      opacity: '0',
+      fadeIn: "fadeIn 1.5s ease-in-out 7.5s forwards"
     },
     keyframes: {
       fadeIn: {
-        "0%": { opacity: 0 },
-        "100": { opacity: 1 }
+        "0%": { opacity: 0, transform: 'translate3d(0,40px,0)' },
+        "100%": { opacity: 1, transform: 'translate3d(0,0,0)' }
       }
     }
   },
