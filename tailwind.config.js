@@ -16,8 +16,7 @@ export const theme = {
       ]
     },
     animation: {
-      opacity: '0',
-      fadeIn: "fadeIn 1.5s ease-in-out 7.5s forwards"
+      fadeIn: "fadeIn 1.5s ease-in-out forwards",
     },
     keyframes: {
       fadeIn: {
