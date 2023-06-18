@@ -30,8 +30,10 @@ const About = () => {
                     <Image 
                         src={aboutPic} 
                         priority='true' 
-                        width='250' 
+                        width='612'
+                        height='612' 
                         alt="person coding"
+                        color='white'
                     />
                 </div>
             </div>
