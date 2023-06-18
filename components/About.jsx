@@ -27,8 +27,11 @@ const About = () => {
                     </p>
                 </div>
                 <div className='flex justify-center rounded-lg drop-shadow-4xl sm:hover:scale-105 sm:ease-in sm:duration-300'>
-                    <img 
+                    <Image 
                         src={aboutPic} 
+                        priority='true' 
+                        width='612'
+                        height='612' 
                         alt="person coding"
                     />
                 </div>
