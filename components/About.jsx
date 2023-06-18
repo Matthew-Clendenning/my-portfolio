@@ -32,7 +32,6 @@ const About = () => {
                         priority='true' 
                         width='250' 
                         alt="person coding"
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                 </div>
             </div>
