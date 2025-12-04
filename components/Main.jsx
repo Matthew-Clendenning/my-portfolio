@@ -23,7 +23,7 @@ const Main = () => {
                 <Typewriter />
                 <div className='animate-fadeIn'>
                     <p className='p-2 text-gray-600 md:max-w-[70%] mx-auto mt-8'>
-                        I'm a software developer with experience in web development, 
+                        A software developer with experience in web development, 
                         mobile game development, and building full-stack applications. 
                         I focus on delivering smooth, modern, and user-focused digital experiences.
                     </p>
