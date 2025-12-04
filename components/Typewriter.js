@@ -18,16 +18,6 @@ export default function TypingEffect() {
                     }}
                 />
             </h2>
-            <h3 className='my-2'>
-                <TypeWriter
-                    onInit={(typewriter) => {
-                    typewriter.changeDelay(80)
-                    typewriter.pauseFor(4800)
-                    typewriter.typeString('A Front-end Developer')
-                        .start()
-                    }}
-                />
-            </h3>
         </div>
     )
 }

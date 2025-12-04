@@ -28,12 +28,12 @@ const Contact = () => {
                         </div>
                         <div>
                             <h2 className='py-8 pb-2'>Matthew Clendenning</h2>
-                            <p className='font-bold underline underline-offset-4'>Front-End Developer</p>
-                            <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk.</p>
+                            <p className='font-bold underline underline-offset-4'>Software Developer</p>
+                            <p className='py-4'>I'm looking for full-time software development opportunities. Let's talk.</p>
                         </div>
                         <div>
                             <p className='uppercase pt-8'>Connect With Me</p>
-                            <div className='flex items-center gap-4 md:gap-0 md:justify-evenly py-4'>
+                            <div className='flex items-start gap-8 md:gap-4 md:justify-start py-4'>
                                 <div className='text-xl rounded-full shadow-md shadow-gray-400 p-3 sm:hover:text-[#0077B5] sm:hover:scale-110 sm:ease-in sm:duration-150'>
                                     <Link title="LinkedIn profile" href="https://www.linkedin.com/in/matthew-clendenning-9b9746267/" target='_blank'>
                                         <FaLinkedinIn />

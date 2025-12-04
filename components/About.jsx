@@ -13,17 +13,18 @@ const About = () => {
                     <p className='text-xl tacking-wide uppercase text-[#004a7e]'>About</p>
                     <h2 className='py-4'>Who I Am</h2>
                     <p className='py-2 text-gray-800'>
-                        Hello! I'm Matthew Clendenning, a passionate front-end developer that wants to
-                        create visually appealing interactive web applications. I have 1 year of
-                        experience along with a solid foundation of various front-end technologies.
+                        Hello! I'm Matthew Clendenning, an aspiring software engineer with experience building web applications,
+                         mobile games, and backend services. I have a few years of hands-on development experience
+                         and a strong foundation in modern software engineering principles.
                     </p>
                     <p className='py-2 text-gray-800'>
-                        I began my developer journey with a curiosity about how websites operated. For the past
-                        year I have learned and cultivated a deep understanding of HTML5, CSS3, and Javascript.
+                        My journey began with curiosity about hoe software works beneath the surface. Since then, I've gained practical
+                        experience with JavaScript, React, Java, C#, Python, and other core technologies. This allows me to work confidently
+                        across the stack and deliver reliable, user-focused solutions.
                     </p>
                     <p className='py-2 text-gray-800'>
-                        I invite you to take a look at my <Scroll to="projects" spy={true} smooth={true} offset={-40} duration={500}><span className='font-bold p-0.5 cursor-pointer rounded-sm underline underline-offset-3'>projects</span></Scroll>, and please contact me about any business
-                        inquiries!
+                        Feel free to explore my <Scroll to="projects" spy={true} smooth={true} offset={-40} duration={500}><span className='font-bold p-0.5 cursor-pointer rounded-sm underline underline-offset-3'>projects</span></Scroll>,
+                        and don't hesitate to reach out about collaboration or business opportunities!
                     </p>
                 </div>
                 <div className='flex justify-center rounded-lg drop-shadow-4xl sm:hover:scale-105 sm:ease-in sm:duration-300'>
