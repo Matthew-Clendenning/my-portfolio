@@ -115,12 +115,6 @@ const Projects = () => {
                                     View Game
                                 </Link>
                             </h4>
-
-                            <span className='text-2xl rounded-full shadow-md shadow-gray-400 p-2 cursor-pointer sm:hover:scale-105 sm:ease-in sm:duration-150'>
-                                <Link title="Github repo" href="https://github.com/Matthew-Clendenning/SUMMIT" target='_blank'>
-                                    <BsGithub />
-                                </Link>
-                            </span>
                         </div>
                     </div>
                 </div>

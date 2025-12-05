@@ -48,7 +48,7 @@ const Main = () => {
                     <div className='sm:max-w-[550px] max-w-[280px] m-auto'>
                     <Marquee>
                         <div className='flex py-8'>
-                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
+                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-md shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
                                 <Image 
                                     src={htmlPic}
                                     alt="html image"
@@ -58,7 +58,7 @@ const Main = () => {
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 />
                             </div>
-                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
+                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-md shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
                                 <Image 
                                     src={cssPic}
                                     alt="css image"
@@ -68,7 +68,7 @@ const Main = () => {
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 />
                             </div>
-                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
+                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-md shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
                                 <Image 
                                     src={jsPic}
                                     alt="javascript image"
@@ -78,7 +78,7 @@ const Main = () => {
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 />
                             </div>
-                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
+                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-md shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
                                 <Image 
                                     src={tailPic}
                                     alt="tailwind image"
@@ -88,7 +88,7 @@ const Main = () => {
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 />
                             </div>
-                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
+                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-md shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
                                 <Image 
                                     src={nextPic}
                                     alt="nextjs image"
@@ -98,7 +98,7 @@ const Main = () => {
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 />
                             </div>
-                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
+                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-md shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
                                 <Image 
                                     src={reactPic}
                                     alt="react image"
@@ -108,7 +108,7 @@ const Main = () => {
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 />
                             </div>
-                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
+                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-md shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
                                 <Image 
                                     src={csharp}
                                     alt="csharp image"
@@ -118,7 +118,7 @@ const Main = () => {
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 />
                             </div>
-                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-lg shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
+                            <div className='sm:mr-12 mr-8 p-2 rounded-xl shadow-md shadow-gray-400 sm:hover:scale-110 sm:ease-in-out sm:duration-300'>
                                 <Image 
                                     src={java}
                                     alt="java image"
